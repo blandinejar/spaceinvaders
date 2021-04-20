@@ -1,0 +1,75 @@
+.configuration {
+    background-color: #3148AD;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px
+}
+
+body {
+    background-color: #5E58CC;
+}
+
+#invader {
+    /* background-color: #5E58CC; */
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.pixelligneclass {
+    display: flex;
+}
+
+.pixelcolonneclass {
+    /* width: 30px;
+    height: 30px; */
+    border: 1px solid #808E9C;
+}
+
+
+.greypixel {
+    background-color: #D2DAE2;
+}
+
+.pinkpixel {
+    background-color: pink;
+}
+
+
+#button {
+    background-color : #9B68E4;
+    color: white;
+    margin-left: 10px;
+    font-size: 1.4em;
+    height: 50%;
+    width: 120px;
+}
+
+
+.input {
+    width: 200px;
+    height: 50%;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* fond #808E9C
+    carré gris #D2DAE2 border #808E9C
+    violet haut #3148AD
+    violet bas #5E58CC
+    bouton valider #9B68E4
+    black #485460  -- border #1E272E
+    orange ##FBC048 -- border #E89B31
+    vert #78EA83  -- border #65C66D*/
